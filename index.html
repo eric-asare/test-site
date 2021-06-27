@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>test-page</title>
+</head>
+
+<body>
+    <h1>Nature Pictures</h1>
+    <img id="first-image" src="images/butterfly.jpeg" alt="beautiful nature">
+
+    <p>Welcome user!</p>
+    <p>A Quick Survey</p>
+    <form>
+        <select name="purpose" id="purpose">
+            <option>--choose a reason for the visit-- </option>
+            <option>friend referal</option>
+            <option>curious</option>
+            <option>just for fun</option>
+        </select>
+
+        <label for="agree">I agree to the terms and conditions</label>
+        <input id="agree" type="checkbox" name="I agree" checked>
+    </form>
+
+    <h2>Type of Nature Photography</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Wildlife</th>
+                <th>Landscape</th>
+                <th>Night</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/eagle.jpeg" width=200px; height=200px;></td>
+                <td><img src="images/sea.jpeg" width=200px; height=200px;></td>
+                <td><img src="images/night.jpeg" width=200px; height=200px;></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>This is a beautiful scene for a</p>
+    <ul>
+        <li>calm morning</li>
+        <li>peaceful afternoon</li>
+        <li>relaxing evening</li>
+    </ul>
+    <p>for more nature pictures, check <a href="https://unsplash.com/s/photos/natural">nature is beautiful</a></p>
+
+    <form action=https://www.pinterest.com/search>
+        <label for="search">Want Something Different?</label>
+        <input id="search" type="text" placeholder="search Pinterest" name="q">
+    </form>
+
+    <p>Would you like to give a rating?</p>
+    <form action=www.google.com/search>
+        <p>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="rate" value="yes">
+
+            <label for="no">No</label>
+            <input id="no" type="radio" name="rate" value="no">
+
+            <label for="remind me">Remind Me</label>
+            <input id="remind me" type="radio" name="rate" value="remind me">
+            <button>Submit</button>
+        </p>
+
+    </form>
+
+    <form>
+        <label for="rate-slider">Rate?</label>
+        <input id="rate-slider" type="range" name=rate-slider min=1 max=5>
+
+        <!--break-->
+        <br>
+        <label for="request">Any Special Request?</label>
+        <br>
+        <textarea name="request" rows="10" cols="20" id="request" placeholder="Type here"></textarea>
+    </form>
+</body>
+
+</html>
