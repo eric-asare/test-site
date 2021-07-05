@@ -1,21 +1,80 @@
-h1 {
-    color: white;
-}
-#heading{
-    text-align: center;
-
-}
+/*
 form{
-    background-color :#3f37c9;
-    border: 10px inset #7209b7 ;
-    border-radius:5px;
+    background-color: #9921e8;
+    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
 }
-#first, #last,#email, #password{
-    color: teal;
+*/
+
+form{
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    width: 350px;
+    height:320px;
+    margin:auto;
+    padding:3em;
+    border-radius: 25px;
 }
 
-p{
+#register{
+    text-align: center;
+    color:white;
+    padding-top:none;
+}
+
+#first{
+  margin:7px;
+  padding:5px;
+  border-radius:25px;
+  text-align: center;
+}
+
+#last{
+    margin:7px;
+    padding:5px;
+    border-radius:25px;
+    text-align: center;
+}
+
+#email{
+    margin:7px;
+    padding:5px ;
+    border-radius:25px;
+    width: 25em;
+    text-align: left;
+    
+}
+
+#password{
+    margin:7px;
+    padding:3px;
+    border-radius:25px;
+    width: 25em;
+}
+
+
+#confirm{
+    margin:7px;
+    padding:5px;
+    border-radius:25px;
+    width: 25em;
+}
+
+#agree{
+    margin-top:25px;
     color:white;
 }
 
 
+
+button{
+    color:white;
+    background-color:#87CEEB;
+    transform:translateX(65%);
+    margin:3em;
+    border-radius:25px;
+    padding:7px;
+}
+
+span{
+    color:cyan;
+}

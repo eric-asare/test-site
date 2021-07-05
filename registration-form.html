@@ -10,49 +10,21 @@
 </head>
 
 <body>
-    <h1>Race Registration</h1>
-    <form action="/dummy">
-        <p id="heading">REGISTER</p>
-        <p>
-            <label for="first">First Name</label>
-            <input name="firstname" type="text" id="first" required>
-
-            <label for="last">Last Name</label>
-            <input name="lastname" type="text" id="last" required>
-        </p>
-        <p>Select a Race:</p>
-
-        <p>
-
-            <!--Id shouldn't start with a number, don't forget the value-->
-            <input type="radio" name="race-type" id="fun-run" value="fun-run">
-            <label for="fun-run">Fun Run 5k</label>
-            <br>
-
-            <input type="radio" name="race-type" id="half-marathon" value="half">
-            <label for="half-marathon">Half Marathon</label>
-            <br>
-
-            <input type="radio" name="race-type" id="full-marathon" value="full">
-            <label for="full-marathon">Full Marathon</label>
-
-        </p>
-        <p>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </p>
-
-        <p>
-            <label for="age-group">Select Age Group</label>
-            <select name="age-group" id="age-group">
-                <option value="teens">under 18</option>
-                <option value="adults"> 30 -50</option>
-            </select>
-        </p>
-
-        <button>Register!</button>
+    <form>
+        <p id="register">REGISTER</p>
+        <input name="first" type="text" id="first" placeholder="First Name">
+        <input name="last" type="text" id="last" placeholder="Last Name">
+        <br>
+        <input name="email" type="email" id="email" placeholder="Email">
+        <br>
+        <input name="password" type="password" id="password" placeholder="Password">
+        <br>
+        <input name="confirm" type="password" id="confirm" placeholder="Confirm Password">
+        <br>
+        <input type="checkbox" name="agree" id="agree">
+        <label for id="agree">I accept <span>Terms of Use</span></label>
+        <br>
+        <button>REGISTER NOW</button>
     </form>
 </body>
 
