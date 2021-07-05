@@ -1,0 +1,24 @@
+#gallery img {
+    width:30%;
+    margin:calc(10%/6);
+}
+
+
+nav #logo {
+   border-radius: 50%;
+   width:2em;
+}
+
+
+
+nav span{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    margin:calc(10%/6);
+    padding: 1.5em 0; 
+    width:30%;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
